@@ -1,6 +1,6 @@
 # HR Analytics Dashboard
 
-This Power BI dashboard provides a sharp view into key HR metrics, helping business leaders track workforce size, compensation benchmarks, and leave utilization. It’s designed to empower strategic decisions in staffing, budget allocation, and employee engagement.
+This Power BI Interactive  dashboard provides a sharp view into key HR metrics, helping business leaders track workforce size, compensation benchmarks, and leave utilization. It’s designed to empower strategic decisions in staffing, budget allocation, and employee engagement.
 
 # Key Performance Indicators (KPIs)
 
