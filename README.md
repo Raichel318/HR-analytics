@@ -1,67 +1,51 @@
-# HR Analytics Dashboard
+# 🧑‍💼 HR Analytics Dashboard – Power BI
 
-This Power BI Interactive  dashboard provides a sharp view into key HR metrics, helping business leaders track workforce size, compensation benchmarks, and leave utilization. It’s designed to empower strategic decisions in staffing, budget allocation, and employee engagement.
+This Power BI dashboard delivers a comprehensive view of HR metrics to support data-driven workforce planning. It visualizes critical insights about employee demographics, salary distribution, educational qualifications, and workforce dynamics—all in an intuitive and actionable format.
 
-# Key Performance Indicators (KPIs)
+## 🚀 Features
 
-1) Headcount: Total number of current employees across departments and regions
+- **Key HR Metrics**:
+  - Total Headcount: 161
+  - Average Salary: $54.2K
+  - Average Leave Balance: 16.4 days
+  - Leave Balance Over 20 Days: 29 employees
 
-2) Average Salary: Mean compensation, reflecting payroll trends across roles
+- **Workforce Composition**:
+  - Headcount by **Job Title**, featuring top roles such as Packaging, Production, Sales Representative, and Product Manager
+  - Gender Distribution: 54.66% Female / 45.34% Male
+  - Age Distribution spanning from 20s to 80s
 
-3) Average Leave Balance: Indicates typical accumulated leave per employee
+- **Educational Insights**:
+  - Cross-analysis of **Education Qualification vs. Salary**
+  - Visualized using scatterplot bubbles for easy comparison between Bachelor's, Master's, High School, and Diploma holders
 
-4) Employees with Leave > 20 Days: Flags high leave balances that may impact scheduling or reflect long tenure
+- **Tenure Trends**:
+  - Cumulative Headcount over time based on **Date of Joining** (2017–2022)
 
-These KPIs are displayed using modern card visuals, with reference labels and conditional colors to provide instant status recognition.
+## 📊 Use Cases
 
-# Graphs & Visual Breakdown
-1. 📊 Monthly Headcount Trend
-A line chart showing net changes in employee count over time (joins vs exits)
+Designed to empower HR teams, managers, and business leaders to:
+- Analyze talent demographics and diversity
+- Spot workforce aging or clustering patterns
+- Track hiring trends and onboarding velocity
+- Evaluate salary fairness and qualification alignment
+- Plan succession and leave policies more effectively
 
-Integrated with a zoom slider for navigating long time ranges
+## 🔧 Built With
 
-2. 🧭 Department-Wise Employee Distribution
-Stacked bar chart breaking down headcount by department or business unit
+- Microsoft Power BI
+- DAX for statistical measures and grouping logic
+- Data transformations for date binning, age classification, and salary segmentation
 
-Includes field parameters for switching between groupings (e.g., by region, job role)
 
-3. 💰 Salary Distribution Histogram
-Histogram visual showing frequency of salaries across defined ranges
+## ✨ Acknowledgments
 
-Created using the group feature for intuitive binning
+This dashboard was created to explore real-world HR challenges using analytical storytelling. Special thanks to Power BI community resources and open HR data that shaped its structure and design logic.
 
-4. 🏖️ Leave Balance Table
-Detailed table displaying individual leave balances with conditional formatting
+---
 
-Highlights employees with over 20 days of leave using bold color cues
-
-5. 📍 Country-wise Headcount Breakdown
-Bar chart displaying employee counts across regions
-
-Tooltips show country-specific averages (salary, tenure, leave)
-
-6. 🚻 Gender Ratio Pie Chart
-Visual representation of gender diversity
-
-Dynamically linked to slicers and filters
-
-# Technical Features
-
-1) Dedicated Measure Table: Centralized DAX logic for key HR metrics like headcount, average salary, and leave balance
-
-2) Advanced DAX Calculations: Used for computing averages, thresholds (e.g., leave > 20 days), and KPI indicators
-
-3) Slicer Panel: Allows filtering by department, region, gender, and role for flexible exploration
-
-4) Card Visuals: Showcased KPIs like total headcount, average salary, average leave balance, and employees with high leave
-
-5) Custom Charts: Includes line charts, bar graphs, and pie charts for headcount trends, salary distribution, departmental split, and gender ratio
-
-6) Conditional Formatting: Applied to leave balance tables to highlight employees exceeding the 20-day threshold
-7) Zoom Slider Integration: Enhances time-based visuals for headcount change tracking
-
- <img width="1180" alt="HR Analytics dashboard" src="https://github.com/user-attachments/assets/2a0e283e-f23e-46c3-98d3-25f8bb6ec4df" />
+Explore. Analyze. Transform your HR insights into action.
 
 
 
-
+<img width="1180" alt="HR Analytics dashboard" src="https://github.com/user-attachments/assets/e69159aa-00a5-416b-8aba-8c09a855eba9" />
