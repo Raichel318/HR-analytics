@@ -43,7 +43,7 @@ Designed to empower HR teams, managers, and business leaders to:
 This dashboard was created to explore real-world HR challenges using analytical storytelling. Special thanks to Power BI community resources and open HR data that shaped its structure and design logic.
 
 
-Explore. Analyze. Transform your HR insights into action.
+Explore, Analyze, Transform your HR insights into action!
 
 
 
